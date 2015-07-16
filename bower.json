@@ -2,8 +2,8 @@
   "name": "deag-github-io",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5",
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "materialize": "~0.97.0"
   },
   "overrides": {
     "bootstrap-sass": {
