@@ -4,28 +4,78 @@ $icon-font-path: "../bower_components/materialize/font/roboto";
 @import "bower_components/materialize/sass/materialize.scss";
 // endbower
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
 
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
-}
+// --------------- General Styles ---------------
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
+  text-align: center;
+  height: 100vh;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
+
+.parallax-container .section {
+  width: 100%;
+  position: absolute;
+}
+
+.section {
+  padding-top: 5rem;
+}
+
+.container {
+  width:82%;
+}
+
+.section-secondary {
+  text-align: center;
+  height: 100vh;
+}
+
+.parallax img {
+  display: inline;
+  width: 100%;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+// --------------- Section 1 ---------------
+.profile-pic {
+  border-radius: 51%;
+  width: 21%;
+}
+
+// --------------- Section 2 ---------------
+
+
+// --------------- Section 3 ---------------
+
+.collapsive-background {
+  margin: 7px;
+  color: black;
+}
+
+// --------------- Section 4 ---------------
+
+// --------------- Section 5 -------------
+.section4 {
+  .row {
+    margin: 0px;
   }
+  .card-image {
+    height: 190px;
+  }
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -43,9 +93,7 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
+
 .icon-block .material-icons {
   font-size: inherit;
 }
